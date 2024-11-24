@@ -11,7 +11,6 @@ import {
   useNodesState,
   useReactFlow,
 } from "@xyflow/react";
-import "@xyflow/react/dist/style.css";
 import TextareaNode from "./nodes/textarea";
 import InputNode from "./nodes/input";
 import ImageNode from "./nodes/image";
@@ -85,7 +84,7 @@ export const MainFlow = () => {
     [screenToFlowPosition]
   );
   return (
-    <div className="p-4 w-full h-full">
+    <div className="relative p-4 w-full h-full">
       <div className="relative w-full h-full border rounded-lg border-border">
         <ReactFlow
           nodes={nodes}

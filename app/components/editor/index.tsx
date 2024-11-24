@@ -19,7 +19,7 @@ const extensions = [
   }),
 ];
 
-const content = "<p>Write something you are proud of!</p>";
+const content = "<p>Make something you are proud of!</p>";
 
 const Tiptap = () => {
   return (
